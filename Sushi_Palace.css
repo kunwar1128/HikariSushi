@@ -1,0 +1,117 @@
+html{
+    scroll-behavior: smooth;
+}
+/* html::-webkit-scrollbar {display: none;} */
+#navMain{font-family: "Brush Script MT";
+         font-size: 2.6rem; height: 7%;}
+
+#navMain>a{font-size: 2.2rem; color:red;
+    font-family: 'Aclonica';}
+
+#navMain .nav-link{color: white;}
+
+#navMain .nav-link:hover{color: red;}
+
+#navMain .active{color: red;}
+
+#navMain.scrolled{background-color: rgba(0, 0, 0, 0.5);
+                transition: background 500ms;}
+
+#togglerButton{color: red;
+               background-color:rgba(0,0,0,0.5);
+               border-color: red;}
+
+#header{background: url("Sushi1.jpg") center / cover no-repeat fixed;
+        /*height: 57rem;*/ height: 100vh; color: red; font-family: "Brush Script MT"; position: relative;}
+#header a{position: absolute; bottom: 50px; left: 50%}
+
+#img1{  width: 50rem;
+        position: absolute; top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin:auto;}
+
+#middle{background-color: black;
+        color: white; font-family: "Comic Sans MS";}
+
+
+#arrowDown{font-size: 2rem; color: red}
+#arrowDown:hover{color:black}
+
+#middle h2{color: red;}
+
+hr {border-color:red;}
+
+#socialS h3{color: red;}
+
+#socialS p{word-spacing: 30px;}
+
+.social{width: 40%;}
+
+#img11{height: 100%; width: 100%;}
+
+#last{background: url("Greek.jpg") center / cover no-repeat fixed;}
+
+
+@media (max-width: 992px){
+    .navbar-nav{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    #socialS p{word-spacing: 20px;}
+	#navMain{height: 3.5rem;font-family: 'Nova Oval',cursive; font-weight:bold;}
+	#navLinks{position:absolute; top:0;}
+	#navLinks ul {margin-top:18%; padding-right:55%; padding-left:5%;}
+	#middle{font-family: 'Cherry Swash', cursive;}
+}
+@media (max-width: 767px){
+    .social{width: 30%;}
+
+    #socialS p{word-spacing: 6px;}
+}
+@media (min-width: 992px){
+    #last{
+        background-image: url("Greek.jpg"); background-attachment: fixed; background-size: 84rem 100%; 
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width: 1200px){
+    #last{
+        background-image: url("Greek.jpg"); background-attachment: fixed; background-size: 100% 100%; 
+        background-repeat: no-repeat;
+    }
+}
+
+
+#map0{height: 26rem;}
+
+#maps{height: 100%; width: 100%;}
+
+#ct{background-color: rgba(0,0,0,0.5);
+    font-family: "Comic Sans MS"; font-size: 14pt; color: white;}
+
+#contactImg{width: 75%;}
+
+#footer{background-color: black; font-family: "Comic Sans MS";}
+@media (max-width: 992px){#footer{font-family: 'Cherry Swash', cursive;} #ct{font-family: 'Cherry Swash', cursive;}}
+#footer img{width: 15rem; margin-top: 5rem;}
+
+#footer a{color: white;}
+#footer a:hover{text-decoration: none;}
+#footer a:hover{color: red;}
+
+#footer div p{word-spacing: 500px;} /* Edit this -- work on this */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
