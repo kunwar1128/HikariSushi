@@ -4,9 +4,7 @@ html{
 
 
 
-body{background-color: black;
-background: url("Sushi1.jpg") center / cover no-repeat fixed ;
-height:100vh}
+body{background-color: black;}
 
 #navMain{font-family: 'Nova Oval',cursive;
          font-size: 2rem; height: 7%;}
